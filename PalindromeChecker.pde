@@ -24,9 +24,7 @@ public boolean palindrome(String word)
 public String reverse(String str)
 {
     String sNew = new String();
-    for(int i = sWord.length(); i > 0; i--)
-     sNew = sNew + sWord.substring(i-1, i);
+    for(int i = str.length(); i > 0; i--)
+     sNew = sNew + str.substring(i-1, i);
     return sNew;
 }
-
-
